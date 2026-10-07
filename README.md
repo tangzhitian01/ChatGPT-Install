@@ -24,7 +24,7 @@
 
 扫描下面的飞书二维码加入问题反馈群。该群仅限企业内部成员加入。
 
-![问题反馈飞书群二维码](feishu-feedback-group-qr.jpg)
+![问题反馈飞书群二维码](feishu-feedback-group-qr.png)
 
 如果二维码无法使用，请联系项目发布者获取最新入口。
 
