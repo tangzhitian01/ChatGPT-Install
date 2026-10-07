@@ -2,30 +2,10 @@
 
 ## 下载与运行
 
-1. 下载 `ChatGPT-Updater-licensed.exe`。
+1. 下载 `ChatGPT-Updater.exe`。
 2. 将 EXE 保存到本地可写目录，不要直接放在压缩包内运行。
-3. 双击运行。首次运行把窗口显示的申请码提交到下方的飞书申请页面，取得激活码后粘贴并点击“激活”。
+3. 双击运行，工具会直接检查可用更新，不需要申请码、激活码或其他激活步骤。
 4. 窗口会显示系统信息、当前版本、可用版本和详细日志。
-
-## 申请激活码
-
-1. 扫描“提交申请码”二维码，填写更新工具显示的申请码：
-
-   [提交申请码](https://jiv12a65l2e.feishu.cn/share/base/form/shrcnlYTvrmWsgOYDBLC0asG6we)
-
-   ![提交申请码二维码](feishu-request-form-qr.png)
-
-2. 扫描“查看申请码与激活码”二维码，在飞书文档中找到自己的申请记录，复制完整激活码：
-
-   [查看申请码与激活码](https://jiv12a65l2e.feishu.cn/base/ALQibM3yxaDowcsz3ePcQS5bnkc?table=tblAIVuj1yMuV3xs&view=vewZnSgLiZ)
-
-   ![查看申请码与激活码二维码](feishu-activation-records-qr.png)
-
-申请码和激活码请配套使用，只复制与自己提交的申请码对应的激活码；其他记录的激活码无法用于本机。
-
-本机签发任务每 5 分钟检查一次；考虑处理和同步延迟，正常情况下约 10 分钟可在飞书文档中看到更新。申请码提交后激活码发放可能延迟，如暂未显示请稍后再查看。
-
-已有申请码、激活码和备注等有效历史记录不会被自动删除；系统仅可能清理没有申请码、没有其他内容且没有签发记录的空行。
 
 ## 更新 ChatGPT
 
@@ -40,6 +20,14 @@
 
 正常安装更新不会卸载 ChatGPT/Codex，也不会删除历史对话、语言、设置等个人数据。重要内容仍建议自行备份；安装前请保存正在编辑的项目。安装过程中如果提示应用正在使用，请完全退出 ChatGPT/Codex，再点击“安装”重试。更新工具不会代替应用保存未保存的内容。
 
+## 问题反馈
+
+扫描下面的飞书二维码加入问题反馈群。该群仅限企业内部成员加入。
+
+![问题反馈飞书群二维码](feishu-feedback-group-qr.jpg)
+
+如果二维码无法使用，请联系项目发布者获取最新入口。
+
 ## 日志窗口
 
 日志区域可以上下滚动查看详细信息。查看旧日志时，窗口不会强制跳到最新一行；重复的下载状态只更新进度百分比，不会不断追加相同内容。
@@ -49,7 +37,7 @@
 更新工具当前没有 Windows 代码签名。运行前请确认文件来自可信来源，并核对发行者提供的 SHA-256 文件哈希：
 
 ```text
-ChatGPT-Updater-licensed.exe  25D74A02E5C767EAF4C959E844846B8BE47124AC1F112CBB2EE8F9FB859C6EAB
+ChatGPT-Updater.exe  07D8558F261956E07AF1E4EEF66F6A2C45E59BF738692E53F62C350AF7629FDD
 ```
 
 如果确认来源可靠但仍被拦截，请根据拦截软件的提示处理。不同 Windows 或安全软件版本的菜单名称可能略有差异。
@@ -79,4 +67,4 @@ ChatGPT-Updater-licensed.exe  25D74A02E5C767EAF4C959E844846B8BE47124AC1F112CBB2E
 微软参考：
 
 - [应用和浏览器控制](https://support.microsoft.com/zh-cn/windows/security/windows-security/app-browser-control-in-the-windows-security-app)
-- [智能应用控制常见问题](https://support.microsoft.com/zh-cn/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions)
+- [智能应用控制常见问题](https://support.microsoft.com/zh-cn/windows/security/threat-malware-protection/windows-defender-smartscreen-and-smart-app-control-frequently-asked-questions)
